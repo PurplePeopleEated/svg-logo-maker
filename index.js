@@ -21,6 +21,9 @@ async function generateLogo() {
       console.log('Missing shape selection');
     }
 
+    // Create a new logo with the userData
+    const newLogo = shape.render(userData.text, userData.textColor, userData.shapeColor);
+
   } catch (error) {
     console.error(error);
   }
