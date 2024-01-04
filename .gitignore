@@ -3,3 +3,7 @@
 
 # npm
 package-lock.json
+
+# Test files
+shape.svg
+/examples/my-logo.svg
