@@ -2,6 +2,7 @@
 
 ## Description
 
+This is a command-line interface application that utilizes the [Inquirer.js](https://www.npmjs.com/package/inquirer?activeTab=readme) npm package in order to generate a simple logo for the user.
 
 ## Table of Contents
 [Installation](#installation)
@@ -16,7 +17,7 @@ To install, run `npm i` in the directory with "package.json".
 
 ## Usage
 
-
+Use `node index.js` to start the logo maker. It will prompt you with a series of questions that you must answer in order for the logo to be generated. After answering the questions, a new .svg file titled "my-logo" can be found in the /examples directory.
 
 ## License
 [MIT License](https://opensource.org/license/mit/)
@@ -44,7 +45,7 @@ To install, run `npm i` in the directory with "package.json".
 Articles Used:
 - [MDN Docs](https://developer.mozilla.org/)
 - [w3schools](https://www.w3schools.com/)
-- AI Assistant
+- [Inquirer.js Docs](https://www.npmjs.com/package/inquirer?activeTab=readme)
 
 ## Questions
 
