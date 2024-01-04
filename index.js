@@ -24,6 +24,12 @@ async function generateLogo() {
     // Create a new logo with the userData
     const newLogo = shape.render(userData.text, userData.textColor, userData.shapeColor);
 
+    // Save the new logo to an SVG file
+    fs.writeFile('./examples/my-logo.svg', newLogo, (err) => {
+      if (err) throw err;
+      console.log('Your new logo has been generated!');
+    });
+    
   } catch (error) {
     console.error(error);
   }
