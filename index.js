@@ -8,7 +8,19 @@ async function generateLogo() {
     const userData = await collectData();
     console.log(userData);
 
-    //return result
+    // Determine the shape from the user input
+    let shape;
+
+    if (userData.shape === 'Circle') {
+      shape = new Circle();
+    } else if (userData.shape === 'Triangle') {
+      shape = new Triangle();
+    } else if (userData.shape === 'Square') {
+      shape = new Square();
+    } else {
+      console.log('Missing shape selection');
+    }
+
   } catch (error) {
     console.error(error);
   }
