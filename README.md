@@ -42,6 +42,8 @@ Use `node index.js` to start the logo maker. It will prompt you with a series of
 
 ## Contributing
 
+- Trinh Nguyen, tutor
+
 Articles Used:
 - [MDN Docs](https://developer.mozilla.org/)
 - [w3schools](https://www.w3schools.com/)
